@@ -3,7 +3,7 @@ import os
 
 def add_expense(expenses):
     """Add a new expense to the tracker."""
-    category = input("Enter the category (e.g., Food, Transport, Bills): ").strip()
+    category = input("Enter the category (e.g., Food, Transport, Bills, etc...): ").strip()
     description = input("Enter a description: ").strip()
     amount = float(input("Enter the amount spent: "))
     expenses.append({"Category": category, "Description": description, "Amount": amount})
